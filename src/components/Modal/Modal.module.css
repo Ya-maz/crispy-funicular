@@ -1,0 +1,86 @@
+.portalBackground {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.35);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.portalContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.modalBackground {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 0;
+  padding: 25px;
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}
+.closeBtn svg:hover {
+  color:#000;
+  fill:#000;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.body {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 25px;
+}
+.body p {
+  line-height: 22px;
+  margin: 0;
+}
+
+.footer {
+  flex: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 5px 10px;
+}

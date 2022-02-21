@@ -1,0 +1,32 @@
+.primary{
+  display: block;
+  background-color: #3da7ff;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+.primary:hover{
+  background-color: transparent;
+  border-color: #3da7ff;
+}
+.primary:active{
+  background-color: transparent;
+  border-color: #044f8b;
+}
+.secondary{
+  display: block;
+  background-color: transparent;
+  border: 1px solid #3da7ff;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+.secondary:hover{
+  background-color: #3da7ff;
+
+}
+.secondary:active{
+  background-color: transparent;
+  border-color: #044f8b;
+}
